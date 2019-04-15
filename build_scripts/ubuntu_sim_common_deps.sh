@@ -55,7 +55,7 @@ echo "Installing jMAVSim simulator dependencies"
 sudo apt-get install ant openjdk-8-jdk openjdk-8-jre -y
 
 # Clone PX4/Firmware
-clone_dir=~/src
+clone_dir=~/Playground/drone/src/
 echo "Cloning PX4 to: $clone_dir."
 if [ -d "$clone_dir" ]
 then
