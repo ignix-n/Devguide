@@ -24,7 +24,7 @@ sudo apt-get install git zip qtcreator cmake build-essential genromfs ninja-buil
 # make sure xxd is installed, dedicated xxd package since Ubuntu 18.04 but was squashed into vim-common before
 which xxd || sudo apt install xxd -y || sudo apt-get install vim-common --no-install-recommends -y
 # Required python packages
-sudo apt-get install python-argparse python-empy python-toml python-numpy python-dev python-pip -y
+sudo apt-get install python-argparse python-empy python-toml python-numpy python-dev python-pip python-setuptools -y
 sudo -H pip install --upgrade pip
 sudo -H pip install pandas jinja2 pyserial pyyaml
 # optional python tools
